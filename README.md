@@ -14,9 +14,6 @@ Interactive Chat: Supports standard chat, private "whispers" between characters,
 
 Technical Stack
 Frontend: React (with TypeScript)
-
 Build Tool: Vite
-
 Styling: Tailwind CSS
-
 Backend & Hosting: Firebase (Firestore, Authentication, and Hosting)
