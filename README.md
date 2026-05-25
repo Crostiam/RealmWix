@@ -17,3 +17,5 @@ Frontend: React (with TypeScript)
 Build Tool: Vite
 Styling: Tailwind CSS
 Backend & Hosting: Firebase (Firestore, Authentication, and Hosting)
+
+A
