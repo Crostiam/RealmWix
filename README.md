@@ -1,21 +1,27 @@
-Return to the Realm
-Return to the Realm is a medieval-themed, real-time roleplaying web application built with React, Vite, and Firebase. It provides a platform for users to create characters, navigate between different roleplay rooms, and engage in real-time chat with other adventurers.
+Medieval Chat: The Realm's Tavern
 
-Features
-Real-time Interaction: Connects to Firebase for live messaging, character presence, and room management.
+Medieval Chat is a real-time, browser-based social application designed to bring a medieval roleplaying atmosphere to your community. Built with React and Firebase, it allows users to congregate in different realms, share messages, send private "ravens," and pin decrees to an infinite notice board.
 
-Character System: Users can create custom characters with names, avatars, classes, and bios.
+Key Features
 
-Dynamic Roleplay Rooms: Users can explore different "realms" (rooms), each with its own theme and purpose.
+🏰 Multi-Room Realms
 
-Administrative Controls: Dungeon Masters (Admins) have specialized powers to manage the realm, including deleting characters and managing notices.
+Themed Rooms: Navigate through various chat rooms (Taverns, Courtyards, Woods) each with its own vibe.
 
-Interactive Chat: Supports standard chat, private "whispers" between characters, and emote-based actions.
+Main Town: A persistent, global chat hub where all travelers can gather regardless of their current location.
 
-Technical Stack
-Frontend: React (with TypeScript)
-Build Tool: Vite
-Styling: Tailwind CSS
-Backend & Hosting: Firebase (Firestore, Authentication, and Hosting)
+📜 Infinite Notice Board
 
-A
+Interactive Canvas: A zoomable, pannable infinite canvas where the community can pin important information.
+
+Rich Content: Support for titles, descriptive text, and image attachments.
+
+Permissions: Admins can manage all notices, while players can freely add their own decrees. Drag-and-drop functionality allows for easy organization of the board layout.
+
+🐦 Raven Mail System (Direct Messages)
+
+Private Conversations: Send private, secure letters (ravens) to other travelers.
+
+Cooldown System: To ensure thematic realism, there is a mandatory 60-second cooldown between sending letters.
+
+Admin Oversight: The "Master View" allows Admins to intercept and oversee all private communications within the realm.
